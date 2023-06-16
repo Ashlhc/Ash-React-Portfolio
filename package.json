@@ -1,0 +1,22 @@
+{
+  "name": "ash-react-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashlhc/Ash-React-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashlhc/Ash-React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Ashlhc/Ash-React-Portfolio#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
