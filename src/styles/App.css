@@ -1,0 +1,37 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #59007A;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:4%;
+}
+
+/* .Home {
+    background-image:url('') ;
+} */
+.AboutMe {
+    background-image: url('../assets/images/AboutMe.png');
+}
+.Contact {
+    background-image: url('../assets/images/ContactMe.png');
+}
+.Portfolio {
+    background-image: url('../assets/images/Portfolio.png');
+}
+.Resume {
+    background-image: url('../assets/images/Resume.png');
+}
+
