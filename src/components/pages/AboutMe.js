@@ -1,6 +1,5 @@
 import React from 'react';
-// import Me from '../../assets/images/';
-import DnDGroup from '../images/dnd-group.png';
+import DnDGroup from '../../assets/images/dnd-group.png';
 import '../../styles/About.css';
 import '../../styles/App.css';
 
