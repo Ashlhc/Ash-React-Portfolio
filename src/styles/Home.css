@@ -1,0 +1,75 @@
+
+#my-portfolio {
+    color:#ffbbdb;
+    text-align: center;
+    transform: translate(-2%, 30%);
+    font-size:xx-large;
+}
+ .Moon {
+    display: flex;
+    justify-content: center;
+    transform: translate(60%, -30%);
+    background-color: transparent;
+ }
+ .Cloud {
+    display: flex;
+    justify-content: flex-start;
+    transform: translate(60%, -233%)
+ }
+ .AboutMe {
+    display: flex;
+    justify-content: flex-start;
+    transform: translate(150%, -200%)
+ }
+ .Portfolio {
+    display: flex;
+    justify-content: flex-start;
+    transform: translate(210%, -230%)
+ }
+ .Resume {
+   display: flex;
+   justify-content: center;
+   transform:translate(250%, -400%)
+ }
+.Contact {
+   display: flex;
+   justify-content: center;
+   transform: translate(300%, -430%)
+}
+
+
+ .Mountain {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(45%, 17.5%);
+    max-height:35%;
+ }
+
+
+
+ @media only screen and (max-width: 768px) {
+
+   .Mountain {
+      max-width: 70%;
+      transform: translate(15%, 108%);
+    }
+    .Moon {
+      max-width: 90%;
+      transform: translate(9%, -25%);
+    }
+  
+    .Cloud {
+      max-width: 70%;
+      transform: translate(40%, -30%);
+    }
+    #my-portfolio {
+      text-align: center;
+      transform: translate();
+      font-size: x-large;
+    }
+ }
+
+ @media only screen and (max-width: 480px) {
+   
+ }

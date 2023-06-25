@@ -3,7 +3,13 @@ import Home from './pages/Home.js';
 import About from './pages/AboutMe.js';
 import Portfolio from './pages/Portfolio.js';
 import Contact from './pages/Contact.js';
-// import Resume from './pages/Resume.js';
+import Resume from './pages/Resume.js';
+import AboutImage from '../assets/images/AboutMe.png';
+import HomeImage from '../assets/images/Home.png';
+import PortfolioImage from '../assets/images/Portfolio.png';
+import ContactImage from '../assets/images/ContactMe.png';
+import ResumeImage from '../assets/images/Resume.png';
+
 import '../styles/App.css';
 
 export default function Navbar() {
@@ -22,44 +28,55 @@ const renderPage = () => {
     if (currentPage === 'Contact') {
         return <Contact />;
     }
-    // if (currentPage === 'Resume') {
-    //     return <Resume />;
-    // }
+    if (currentPage === 'Resume') {
+        return <Resume />;
+    }
     return <h1>404 Page Not Found</h1>
 };
 
 const handlePageChange = (page) => setCurrentPage(page)
 
 return (
-    <div>
-        <ul className='nav nav-tabs'>
-            <li className='nav-item p-3'>
+<div className='navbar'>
+  <div className='nav-header'>
+        <ul className='nav-tabs'>
+            
+            <li className='nav-home'>  
                 <a href='#home' onClick={() => handlePageChange('Home')} className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
-                    Home
+                  <img className='home-nav' src={HomeImage} alt='Home' style={{ 'width' : '40%' }}/>
+                  <span className='home-link'>Home</span>
                 </a>
             </li>
-            <li className='nav-item p-3'>
+            <li className='nav-about' >
                 <a href='#about' onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
-                    About Me
+                  <img className='about-nav'src={AboutImage} alt='About' style={{ 'width' : '40%' }}/>
+                  <span className='about-link'>About Me</span>
                 </a>
+
             </li>
-            <li className="nav-item p-3">
+      <li className="nav-portfolio">
         <a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
-          Work
+          <img className='portfolio-nav' src={PortfolioImage} alt='Portfolio' style={{ 'width' : '45%' }}/>
+        <span className='work-link'> Work</span> 
         </a>
       </li>
-      <li className="nav-item p-3">
+      <li className="nav-contact">
         <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
-          Contact
+          <img className='contact-nav' src={ContactImage} alt='Contact' style={{ 'width' : '40%' }}/>
+        <span className='contact-link'>Contact</span>
         </a>
       </li>
-      {/* <li className="nav-item p-3">
+      <li className="nav-resume">
         <a onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} >
-          Resume
+          <img className='resume-nav' src={ResumeImage} alt='Resume' style={{ 'width' : '40%' }}/>
+        <span className='resume-link'>Resume</span>
         </a>
-      </li> */}
+      </li>
         </ul>
+        </div>
         {renderPage({currentPage})}
-    </div>
+
+        </div>
+
 );
 }
