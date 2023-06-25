@@ -1,19 +1,18 @@
-// import React from 'react';
-// import resume from '../../assets/files/';
-// import '../../styles/Resume.css';
+import React from 'react';
+import resume from '../../assets/files/Resume.docx';
+import '../../styles/Resume.css';
+import '../../styles/App.css';
 
-// export default function Resume() {
-//     return (
-//         <main>
-//             <div className='resumePage'>
-//                 <h2>Resume</h2>
-//                 <div className='d-flex align-items-center justify-content-center'>
-//                     <div className='text-center'>
-//                         < a href={resume}><img src={download} stlye={{height: '10em', width: 'auto' }} download />
-//                         <br/> Download Resume</a>
-//                     </div>
-//                 </div>
-//             </div>
-//         </main>
-//     )
-// }
+export default function Resume() {
+    return (
+        <main>
+                <h2>Resume</h2>
+                <div className='d-flex align-items-center justify-content-center'>
+                <a href={resume} download>
+                        <img src={downloadIcon} style={{ height: '10em', width: 'auto' }} alt="Download Resume" />
+                        <br /> Download Resume
+                    </a>
+                    </div>
+        </main>
+    )
+}

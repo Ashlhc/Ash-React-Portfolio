@@ -1,0 +1,18 @@
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    transform: translate(0%, 50%);
+}
+label {
+    font-size: large;
+}
+.align-self-center {
+    background-color: #ffbbdb;
+    color: #59007A;
+}
+.footer{
+    min-height: 700px;
+}

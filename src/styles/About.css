@@ -1,0 +1,17 @@
+.dnd-group {
+    justify-content: center;
+    transform: translate(50%, 12%)
+}
+.about-me {
+    text-align: center;
+    font-size: x-large;
+    max-width: 40%;
+    transform:translate(75%, 0%)
+}
+h2 {
+    text-align: center;
+    font-size: xx-large;
+}
+footer {
+    max-width: 50%;
+}

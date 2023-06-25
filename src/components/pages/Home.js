@@ -1,26 +1,24 @@
 import React from 'react';
 import '../../styles/Home.css';
+import '../../styles/App.css';
 import Cloud from '../../assets/images/Cloud.png';
 import Moon from '../../assets/images/Moon.png';
 import Mountain from '../../assets/images/Mountain.png';
-import About from '../../assets/images/AboutMe.png';
-import Portfolio from '../../assets/images/Portfolio.png';
-import Resume from '../../assets/images/Resume.png';
-import Contact from '../../assets/images/ContactMe.png';
+import Footer from '../Footer';
+
+
 
 export default function Home() {
+
+
   return (
     <main>
-      <div className='homePage'>
-        <img src={Cloud} alt='cloud' style={{width: 'auto'}}/>
-        <img src={Moon} alt='moon' style={{width: 'auto'}}/>
-        <img src={Mountain} alt='mountain' style={{width: 'auto'}}/>
-        <img src={About} alt='about' style={{width: 'auto'}}/>
-        <img src={Portfolio} alt='portfolio' style={{width: 'auto'}}/>
-        <img src={Resume} alt='resume' style={{width: 'auto'}}/>
-        <img src={Contact} alt='contact' style={{width: 'auto'}}/>
-        <h3>Welcome to Ashleigh's Portfolio!</h3>
-      </div>
+      <h2 id='my-portfolio'>Welcome to Ashleigh's Portfolio!</h2>
+      <img className='Moon'src={Moon} alt='moon'/>
+      <img className='Mountain' src={Mountain} alt='mountain'/>
+        <img className='Cloud'src={Cloud} alt='cloud'/>
+        <Footer />
     </main>
+
   )
 }

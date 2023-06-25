@@ -1,27 +1,125 @@
 * {
     font-family: 'Press Start 2P', cursive;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+body{
     background-color: #59007A;
+    color:#ffbbdb;
+}
+main {
+     background-color: #59007A;
 }
 
-header {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+footer {
+    background-color: transparent;
+    position: fixed;
+    bottom: -12%;
+    left: -4%;
+    min-width:80%;
 }
-
-header h1 {
+.footer-image {
+    width: auto;
+    height: auto;
     display: flex;
-    justify-content: center;
+}
+ .nav-header {
+    background-image: url('../assets/images/Header.png'); 
+    background-color: #59007A;
+    display: flex;
     align-items: center;
-    margin-left:4%;
+    margin-top: -1.1%;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-bottom: -0.5%;
+    max-width:101.4%;
+ }
+ .home-nav {
+    display: flex;
+    transform: translate(500%, 0%);
+    min-width:105px;
+ }
+ .home-link {
+    display: flex;
+    transform: translate(685%, 400%)
+ }
+ .about-nav{
+    display: flex;
+    transform: translate(230%, 5%);
+    min-width:150px;
+ }
+ .about-link {
+    display: flex;
+    transform:translate(198%, 365%);
 }
+ .portfolio-nav {
+    display: flex;
+    transform: translate(60%, -18%);
+    min-width:150px;
+ }
+ .work-link {
+    display: flex;
+    transform: translate(-28%, 160%);
+ }
+ .contact-nav {
+    display: flex;
+    transform: translate(-80%, 7%);
+    min-width:150px;
+ }
+ .contact-link {
+    display: flex;
+    transform: translate(-259%, 370%);
+ }
+ .resume-nav {
+    display: flex;
+    transform: translate(-250%, -5%);
+    min-width:150px;
+ }
+ .resume-link {
+    display: flex;
+    transform: translate(-572%, 260%);
+    color:#59007A;
+ }
 
-/* .Home {
-    background-image:url('') ;
+.nav-tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.nav-item {
+    margin-right: 10px;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px;
+    border-radius: 0px;
+}
+/* .nav-link .home-link .about-link .work-link .contact-link .resume-link {
+    font-size: 10px;
+
 } */
+
+/* .nav-link img {
+    width: 10%;
+} */
+.nav-link span{
+    margin-left: 5px;
+}
+ active {
+    display: flex;
+    background-color: transparent;
+    border-color: transparent;
+    margin: transparent;
+    padding: transparent;
+ }
+
+
+
+
+/* .Home { 
+    background-image:url('../assets/images/Home.png') ;
+    background-color: transparent;
+}  */
 .AboutMe {
     background-image: url('../assets/images/AboutMe.png');
 }
@@ -35,3 +133,147 @@ header h1 {
     background-image: url('../assets/images/Resume.png');
 }
 
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #59007A;
+        color:#ffbbdb;
+    }
+    main {
+         background-color: #59007A;
+    }
+    .footer {
+        background-color: transparent;
+        bottom: 11.8%;
+        right: 0%;
+        left: -3.5%;
+        width: 113%;
+    }
+    .footer-image {
+        width: 80%;
+        height: auto;
+    }
+    /* Styles for tablets and smaller screens */
+    .nav-header {
+        background-image: url('../assets/images/Header.png'); 
+        background-color: #59007A;
+        display: flex;
+        margin-top: -2%;
+        margin-left: 0%;
+        margin-right: -10%;
+ 
+
+     }
+    .home-nav {
+      transform: translate(475%, -20%);
+      min-width: 60px;
+
+    }
+    .home-link {
+        transform: translate(705%, 150%);
+        font-size:12.5px;
+      }
+  
+    .about-nav {
+      transform: translate(290%, 10%);
+      min-width: 90px;
+    }
+    .about-link {
+        transform: translate(185%, 275%);
+        font-size:12.5px;
+      }
+    .portfolio-nav {
+      transform: translate(130%, -20%);
+      min-width: 90px;
+    }
+    .work-link {
+        transform: translate(106%, 120%);
+        font-size:12.5px;
+      }
+    .contact-nav {
+      transform: translate(10%, 12%);
+      min-width: 90px;
+    }
+    .contact-link {
+        transform: translate(-100%, 280%);
+        font-size:12.5px;
+      }
+    .resume-nav {
+      transform: translate(-150%, -8%);
+      min-width: 90px;
+    }
+    .resume-link {
+        transform: translate(-300%, 190%);
+        font-size:12.5px;
+      }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Styles for mobile phones */
+    .home-nav {
+      transform: translate(0%, -13%);
+    }
+  
+    .about-nav {
+      transform: translate(-100%, 5%);
+    }
+  
+    .portfolio-nav {
+      transform: translate(-220%, -30%);
+    }
+  
+    .contact-nav {
+      transform: translate(-340%, 10%);
+    }
+  
+    .resume-nav {
+      transform: translate(-510%, -20%);
+    }
+  
+    .B {
+      transform: translate(127%, 236%);
+    }
+  
+    .AM {
+      transform: translate(-77%, 325%);
+    }
+  
+    .PF {
+      transform: translate(-235%, 100%);
+    }
+  
+    .CT {
+      transform: translate(-434%, 380%);
+    }
+  
+    .RE {
+      transform: translate(-707%, 180%);
+    }
+  
+    .Moon {
+      transform: translate(-6.5%, -26%);
+    }
+  
+    .Cloud {
+      transform: translate(-10%, -230%);
+    }
+  
+    .AboutMe {
+      transform: translate(90%, -200%);
+    }
+  
+    .Portfolio {
+      transform: translate(150%, -230%);
+    }
+  
+    .Resume {
+      transform: translate(190%, -400%);
+    }
+  
+    .Contact {
+      transform: translate(240%, -430%);
+    }
+  
+    .Mountain {
+      transform: translate(-15%, -20.5%);
+    }
+  }
