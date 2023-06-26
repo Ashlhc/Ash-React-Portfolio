@@ -51,25 +51,44 @@
  @media only screen and (max-width: 768px) {
 
    .Mountain {
-      max-width: 70%;
-      transform: translate(15%, 108%);
+      max-width: 50%;
+      transform: translate(25%, 140%);
     }
     .Moon {
-      max-width: 90%;
-      transform: translate(9%, -25%);
+      max-width: 61%;
+      transform: translate(17.4%, -4%);
     }
   
     .Cloud {
-      max-width: 70%;
-      transform: translate(40%, -30%);
+      max-width: 40%;
+      transform: translate(50%,85%);
     }
     #my-portfolio {
       text-align: center;
-      transform: translate();
+      display: flex;
+      flex-wrap: wrap;
+      transform: translate(-14%, 44%);
       font-size: x-large;
     }
  }
 
  @media only screen and (max-width: 480px) {
-   
+   .Mountain {
+      max-width: 55%;
+      transform: translate(35%, 399%);
+    }
+    .Moon {
+      max-width: 75%;
+      transform: translate(22%, 20%);
+    }
+  
+    .Cloud {
+      max-width: 40%;
+      transform: translate(110%,295%);
+    }
+    #my-portfolio {
+      text-align: center;
+      transform: translate(-4%, 64%);
+      font-size: 24px;
+    }
  }

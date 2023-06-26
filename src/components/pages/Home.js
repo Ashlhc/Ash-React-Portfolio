@@ -12,13 +12,13 @@ export default function Home() {
 
 
   return (
-    <main>
+    <div>
       <h2 id='my-portfolio'>Welcome to Ashleigh's Portfolio!</h2>
       <img className='Moon'src={Moon} alt='moon'/>
       <img className='Mountain' src={Mountain} alt='mountain'/>
         <img className='Cloud'src={Cloud} alt='cloud'/>
         <Footer />
-    </main>
+    </div>
 
   )
 }

@@ -4,6 +4,7 @@ import Footer from '../Footer';
 import '../../styles/Contact.css';
 import '../../styles/App.css';
 
+
 export default function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] =useState('');
@@ -32,10 +33,9 @@ export default function Contact() {
             return;
         }
 
-        if (comment !== '') {
-            return;
-        } else {
+        if (comment === '') {
             setErrorMessage('Must add message');
+            return;
         }
 
         setName('');
@@ -44,9 +44,9 @@ export default function Contact() {
     }
 
     return (
-        <main>
+
             <div className='contact'>
-                <h2>Send me a message here!</h2>
+                <h2 className='message'>Send me a message here!</h2>
                 <form className='form'>
                     <label>
                         First and Last Name:
@@ -71,9 +71,9 @@ export default function Contact() {
                         <p className='error-text'>{errorMessage}</p>
                     </div>
                 )}
-            </div>
+
             <Footer />
-        </main>
+            </div>
 
     )
 }

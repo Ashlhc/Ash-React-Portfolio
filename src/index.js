@@ -1,14 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './styles/App.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router } from "react-router-dom";
+import { getCLS, getFCP, getFID, getLCP, getTTFB } from 'web-vitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <Router>
-      <App />
-    </Router>
+ReactDOM.render(
+  <Router>
+    <App />
+  </Router>,
+  document.getElementById('root')
 );
-reportWebVitals();
+getCLS(console.log);
+getFCP(console.log);
+getFID(console.log);
+getLCP(console.log);
+getTTFB(console.log);

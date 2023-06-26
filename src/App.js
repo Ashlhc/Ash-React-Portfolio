@@ -7,12 +7,7 @@ import Home from './components/pages/Home.js';
 import Contact from './components/pages/Contact.js';
 import AboutMe from './components/pages/AboutMe.js';
 import Resume from './components/pages/Resume.js';
-import './styles/App.css';
-import './styles/Portfolio.css';
-import './styles/Home.css';
-import './styles/About.css';
-import './styles/Contact.css';
-import './styles/Resume.css';
+
 
 
 

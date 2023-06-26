@@ -37,9 +37,9 @@ export default function Portfolio(props) {
               github='https://github.com/Ashlhc/Nerd-Talk-Blog.git'
             />
             </div>
-            <div className='project-row'>
           </div>
-          <div className='project-item'>
+          <div className='project-row'>
+          <div className='project-item serial-killer'>
             <Project
               title='Serial Killer Quiz'
               image={SerialKiller}
@@ -48,7 +48,7 @@ export default function Portfolio(props) {
             />
           </div>
 
-          <div className='project-item'>
+          <div className='project-item weather-dashboard'>
             <Project
               title='Weather Dashboard'
               image={WeatherDashboard}
@@ -59,5 +59,6 @@ export default function Portfolio(props) {
         </div>
       </div>
     </div>
+
   );
 }
