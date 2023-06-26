@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Ashlhc/Ash-React-Portfolio/static/css/main.112ae674.css",
+    "main.js": "/Ashlhc/Ash-React-Portfolio/static/js/main.5a7e6016.js",
+    "static/media/dnd-group.png": "/Ashlhc/Ash-React-Portfolio/static/media/dnd-group.3b0f7ae8cdaa6fabb054.png",
+    "static/media/Resume.docx": "/Ashlhc/Ash-React-Portfolio/static/media/Resume.39b2bdce136d1ebd964c.docx",
+    "static/media/Footer.png": "/Ashlhc/Ash-React-Portfolio/static/media/Footer.e4d5446c853b3ba3d078.png",
+    "static/media/Mountain.png": "/Ashlhc/Ash-React-Portfolio/static/media/Mountain.1e3d7d89ae43e786da05.png",
+    "static/media/Moon.png": "/Ashlhc/Ash-React-Portfolio/static/media/Moon.9e25e7706866dd0c0d7c.png",
+    "static/media/OurSpace SC.png": "/Ashlhc/Ash-React-Portfolio/static/media/OurSpace SC.3265244668c6ffc8d1c4.png",
+    "static/media/AboutMe.png": "/Ashlhc/Ash-React-Portfolio/static/media/AboutMe.63633d770403eb037b32.png",
+    "static/media/link.png": "/Ashlhc/Ash-React-Portfolio/static/media/link.f832c45fc82560370729.png",
+    "static/media/weather-dashboard.jpg": "/Ashlhc/Ash-React-Portfolio/static/media/weather-dashboard.f706ccfbd298a16f4231.jpg",
+    "static/media/github.png": "/Ashlhc/Ash-React-Portfolio/static/media/github.5fd00dcdaa94a9ffbe9e.png",
+    "static/media/Portfolio.png": "/Ashlhc/Ash-React-Portfolio/static/media/Portfolio.eb8a806a714c48325f7c.png",
+    "index.html": "/Ashlhc/Ash-React-Portfolio/index.html",
+    "main.112ae674.css.map": "/Ashlhc/Ash-React-Portfolio/static/css/main.112ae674.css.map",
+    "main.5a7e6016.js.map": "/Ashlhc/Ash-React-Portfolio/static/js/main.5a7e6016.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.112ae674.css",
+    "static/js/main.5a7e6016.js"
+  ]
+}
