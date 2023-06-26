@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import Footer from '../Footer';
 import '../../styles/Contact.css';
-import '../../styles/App.css';
 
 
 export default function Contact() {

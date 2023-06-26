@@ -1,7 +1,6 @@
 import React from 'react';
 import resume from '../../assets/files/Resume.docx';
 import '../../styles/Resume.css';
-import '../../styles/App.css';
 import downloadIcon from '../../assets/images/download.png';
 
 export default function Resume() {

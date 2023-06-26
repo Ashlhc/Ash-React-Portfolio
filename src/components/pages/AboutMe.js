@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../Footer';
 import DnDGroup from '../../assets/images/DnD-group.png';
-import '../../styles/App.css';
 import '../../styles/About.css';
 
 

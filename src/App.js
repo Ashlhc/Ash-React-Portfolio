@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Navigation from './components/Navbar.js';
+import Footer from './components/Footer.js';
 import Portfolio from './components/pages/Portfolio.js';
 import Home from './components/pages/Home.js';
 import Contact from './components/pages/Contact.js';

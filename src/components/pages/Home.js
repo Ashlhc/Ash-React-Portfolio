@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../styles/Home.css';
-import '../../styles/App.css';
 import Cloud from '../../assets/images/Cloud.png';
 import Moon from '../../assets/images/Moon.png';
 import Mountain from '../../assets/images/Mountain.png';
