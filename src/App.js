@@ -14,30 +14,20 @@ import './styles/About.css';
 import './styles/Contact.css';
 import './styles/Resume.css';
 
-function App() {
-  const location = useLocation();
 
+
+function App() {
   return (
-    <div>
+    <>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-      {location.pathname !== '/portfolio' && <Footer />}
-    </div>
+    </>
   );
 }
-
-function AppWithRouter() {
-  return (
-    <Router>
-      <App />
-    </Router>
-  );
-}
-
-export default AppWithRouter;
+export default App;
