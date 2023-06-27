@@ -69,4 +69,4 @@ Please refer to the LICENSE in the repo.
 
 ##  Links
 
-Deployed App: ![Link](https://ash-react-portfolio.netlify.app/)
+Deployed App: [Link](https://ash-react-portfolio.netlify.app/)
