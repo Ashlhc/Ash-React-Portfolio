@@ -61,12 +61,12 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 --------------
 
-## 📃 License
+## License
 
 Please refer to the LICENSE in the repo.
 
 --------------
 
-##  🔗 Links
+##  Links
 
-Deployed App: ![Link] (https://ash-react-portfolio.netlify.app/)
+Deployed App: ![Link](https://ash-react-portfolio.netlify.app/)
