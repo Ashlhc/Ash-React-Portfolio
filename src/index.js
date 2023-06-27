@@ -6,9 +6,9 @@ import { HashRouter as Router } from "react-router-dom";
 import { getCLS, getFCP, getFID, getLCP, getTTFB } from 'web-vitals';
 
 ReactDOM.render(
-  <Router>
+  <HashRouter>
     <App />
-  </Router>,
+  </HashRouter>,
   document.getElementById('root')
 );
 getCLS(console.log);
