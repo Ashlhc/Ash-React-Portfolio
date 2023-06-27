@@ -1,0 +1,21 @@
+.resume-page{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+}
+.download-icon {
+    max-width: 200px;
+    background-color:#ffbbdb;
+    transform: translate(10%, 110%);
+    border-radius: 25%;
+}
+
+ .download{
+    color:#ffbbdb;
+    transform: translate(-60%, 0%);
+}
+.resume  {
+    text-align: center;
+    font-size: 40px;
+    transform: translate(40%, 20%);
+}
